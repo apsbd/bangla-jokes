@@ -1,0 +1,26 @@
+{
+    "name": "apsbd/bangla-jokes",
+    "description": "Generate random bangla jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohiuddin Ahmed",
+            "email": "mohiuddin_ahmed_07@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Apsbd\\BanglaJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apsbd\\BanglaJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
